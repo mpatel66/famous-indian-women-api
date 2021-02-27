@@ -1,0 +1,27 @@
+{
+  "name": "famous-indian-women-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpatel66/famous-indian-women-api.git"
+  },
+  "author": "meerapatel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpatel66/famous-indian-women-api/issues"
+  },
+  "homepage": "https://github.com/mpatel66/famous-indian-women-api#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "mongoose": "^5.11.18"
+  }
+}
