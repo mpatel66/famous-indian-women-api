@@ -1,16 +1,7 @@
 const Router = require('koa-router');
 const router = new Router();
+const getRandomPerson = require('./controller/person.controller');
 
-router.get('/', (ctx) => {
-  ctx.body = 'Hello World';
-  ctx.status = 200;
-});
-
-router.get('/random', (ctx) => {
-  ctx.body = 'random';
-  ctx.status = 200;
-});
-
-
+router.get('/random', getRandomPerson);
 
 module.exports = router;
